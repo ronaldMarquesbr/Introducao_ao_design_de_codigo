@@ -8,7 +8,7 @@ class Calculator1:
         input_data = self.__validate_body(body)
         splitted_number = input_data / 3
         first_process_result = self.__first_process(splitted_number)
-        second_process_result = self.__second_process(first_process_result)
+        second_process_result = self.__second_process(splitted_number)
         calc_result = first_process_result + second_process_result + splitted_number
         response = self.__format_response(calc_result)
 
