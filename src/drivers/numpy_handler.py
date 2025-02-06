@@ -1,6 +1,7 @@
 import numpy
 from typing import List
 
+
 class NumpyHandler:
     def __init__(self):
         self.__np = numpy
