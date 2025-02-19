@@ -9,3 +9,6 @@ class NumpyHandler(DriverInterfaceHandler):
 
     def standard_deviation(self, numbers: List[float]) -> numpy.floating:
         return self.__np.std(numbers)
+
+    def variance(self, numbers: List[float]) -> numpy.floating:
+        return self.__np.var(numbers)
