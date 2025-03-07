@@ -14,7 +14,7 @@ class Calculator3:
         multiplication = self.__calculate_multiplication(input_data)
         self.__verify_results(variance, multiplication)
 
-        formatted_response = self.__format_response(multiplication)
+        formatted_response = self.__format_response(variance)
 
         return formatted_response
 
